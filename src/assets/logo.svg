@@ -1,0 +1,36 @@
+<svg width="100%" viewBox="0 0 680 690" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="680" height="680" fill="#0f0f1a" rx="80" style="fill:rgb(15, 15, 26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Outer glow - top V -->
+  <polyline points="140,160 340,480 540,160" fill="none" stroke="rgba(139,92,246,0.15)" stroke-width="48" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgba(139, 92, 246, 0.15);color:rgb(255, 255, 255);stroke-width:48px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Outer glow - bottom inverted V -->
+  <polyline points="140,520 340,200 540,520" fill="none" stroke="rgba(99,102,241,0.15)" stroke-width="48" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgba(99, 102, 241, 0.15);color:rgb(255, 255, 255);stroke-width:48px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Mid glow - top V -->
+  <polyline points="140,160 340,480 540,160" fill="none" stroke="rgba(139,92,246,0.25)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgba(139, 92, 246, 0.25);color:rgb(255, 255, 255);stroke-width:24px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Mid glow - bottom inverted V -->
+  <polyline points="140,520 340,200 540,520" fill="none" stroke="rgba(99,102,241,0.25)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgba(99, 102, 241, 0.25);color:rgb(255, 255, 255);stroke-width:24px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Main strokes - top V -->
+  <polyline points="140,160 340,480 540,160" fill="none" stroke="url(#g1)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" style="fill:none;color:rgb(255, 255, 255);stroke-width:10px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Main strokes - bottom inverted V -->
+  <polyline points="140,520 340,200 540,520" fill="none" stroke="url(#g2)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" style="fill:none;color:rgb(255, 255, 255);stroke-width:10px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Center diamond subtle fill -->
+  <polygon points="340,200 460,340 340,480 220,340" fill="rgba(139,92,246,0.06)" stroke="rgba(139,92,246,0.20)" stroke-width="1" style="fill:rgba(139, 92, 246, 0.06);stroke:rgba(139, 92, 246, 0.2);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
