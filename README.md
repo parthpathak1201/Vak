@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="public/tray.png" alt="Vāk Logo" width="120" />
+  <img src="public/tray.png" alt="Vāk Logo" width="256" />
 </p>
+
+
 # Vāk (वाक्)
 
 > A minimalist system-tray utility that **refines AI prompts instantly**.
