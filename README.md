@@ -1,16 +1,27 @@
 # Vāk (वाक्)
 
-A minimalist system-tray utility that refines AI prompts on the fly.
+> A minimalist system-tray utility that **refines AI prompts instantly**.
 
-Vāk stays in your system tray and triggers a global overlay via `Ctrl + Space`. It reads your current prompt in any AI tool and suggests 2–3 optimized alternatives to improve the output quality.
+Vāk lives quietly in your system tray and appears only when you need it.  
+Press `Ctrl + Space` anywhere, and it transforms your raw prompt into **2–3 sharper, higher-quality alternatives**—so you get better AI outputs without thinking twice.
 
 ---
 
-## Features
+## ✨ Features
 
-- **Global Overlay:** Triggered via `Ctrl + Space` across any application  
-- **System Tray:** Runs silently in the background with a minimal footprint  
-- **Multi-LLM Support:** Configure your own API keys for various AI tools  
-- **Instant Refinement:** Provides 2–3 better versions of your current prompt  
+- ⚡ **Global Overlay**  
+  Trigger instantly with `Ctrl + Space` in any application
+
+- 🧠 **Smarter Prompts, Instantly**  
+  Get 2–3 refined versions of your input for better results
+
+- 🔌 **Multi-LLM Support**  
+  Bring your own API keys (OpenAI, Anthropic, etc.)
+
+- 🖥️ **Lightweight & Silent**  
+  Runs in the background with **~130 MB RAM max usage**
+
+- 📌 **System Tray First**  
+  Always available, never intrusive
 
 ---
