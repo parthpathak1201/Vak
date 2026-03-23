@@ -243,7 +243,7 @@ function createOverlayWindow() {
     savedClipboard = clipboard.readText()
   })
 }
-
+/*
 function RamLogger() {
   const formatMB = (bytes: number) => `${Math.round(bytes / 1024 / 1024)}MB`
 
@@ -255,7 +255,7 @@ function RamLogger() {
     )
   }, 10000)
 }
-
+*/
 app.whenReady().then(() => {
   createOverlayWindow()
   createTray()
